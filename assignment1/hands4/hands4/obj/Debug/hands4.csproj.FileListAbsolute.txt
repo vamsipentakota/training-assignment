@@ -1,0 +1,8 @@
+C:\assignment\c#\assignment1\hands4\hands4\bin\Debug\hands4.exe.config
+C:\assignment\c#\assignment1\hands4\hands4\bin\Debug\hands4.exe
+C:\assignment\c#\assignment1\hands4\hands4\bin\Debug\hands4.pdb
+C:\assignment\c#\assignment1\hands4\hands4\obj\Debug\hands4.csproj.AssemblyReference.cache
+C:\assignment\c#\assignment1\hands4\hands4\obj\Debug\hands4.csproj.SuggestedBindingRedirects.cache
+C:\assignment\c#\assignment1\hands4\hands4\obj\Debug\hands4.csproj.CoreCompileInputs.cache
+C:\assignment\c#\assignment1\hands4\hands4\obj\Debug\hands4.exe
+C:\assignment\c#\assignment1\hands4\hands4\obj\Debug\hands4.pdb
