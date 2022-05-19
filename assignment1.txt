@@ -1,0 +1,127 @@
+--1. List all employees whose name begins with 'A'.
+
+
+
+select * from tblemployee
+Where Ename LIKE 'A%'
+
+
+
+
+
+--2. Select all those employees who don't have a manager.
+
+
+
+select * from tblemployee
+Where MGR_Id IS NULL
+
+
+
+
+
+--3. List employee name, number and salary for those employees who earn in the range 1200 to 1400.
+
+
+
+Select ENAME,EMPNO,SAL from tblemployee
+Where SAL BETWEEN 1201 AND 1399
+
+
+
+--4.Give all the employees in the RESEARCH department a 10% pay rise. Verify that this has been done by listing all their details before and after the rise.
+
+
+
+Select Sal+Sal*10/100 AS "10% PAYRISE" from tblemployee
+Where Job ='PRESIDENT'
+
+
+
+--5. Find the number of CLERKS employed. Give it a descriptive heading.
+
+
+
+Select COUNT(*) AS " NUMBER OF CLERKS" from tblemployee
+Where Job='CLERK'
+
+
+
+--6. Find the average salary for each job type and the number of people employed in each job.
+
+
+
+Select AVG(Sal) AS "AVG sal",COUNT(*) AS "Number Of People Employed In Each Job" from tblemployee
+Group by JOB
+
+
+
+--7. List the employees with the lowest and highest salary.
+
+
+
+SELECT MAX(Sal) AS "MAX Sal" ,MIN(Sal) AS "MIN Sal" from tblemployee
+
+
+
+--8. List full details of departments that don't have any employees.
+
+
+
+Select * From tblDepartment
+Where Deptno not in (select Deptno from tblemployee)
+
+
+
+
+--9. Get the names and salaries of all the analysts earning more than 1200 who are based in department 20. Sort the answer by ascending order of name.
+
+
+
+Select Ename,Sal from tblemployee
+Where Job ='ANALYST' And Deptno=20
+Order by Ename asc
+
+
+
+--10. For each department ,list its name and number together with the total salary paid to employees in the department.
+
+
+
+SELECT Job ,Deptno, SUM(Sal) As "Total Sal" from tblemployee
+Group by Job,Deptno
+
+
+
+
+--11. Find out salary of both MILLER and SMITH.
+Select Sal from tblemployee
+Where Ename In('MILLER','SMITH')
+
+
+
+
+--12. Find out the names of the employees whose name begin with ‘A’ or ‘M’.
+
+
+
+Select Ename from tblemployee
+Where Ename Like 'A%' Or Ename Like 'M%'
+
+
+
+
+
+--13. Compute yearly salary of SMITH.
+Select SAL*12 AS "Year Sal" from tblemployee
+Where Ename='SMITH'
+
+
+
+
+--14. List the name and salary for all employees whose salary is not in the range of 1500 and 2850.
+
+
+
+Select Ename,Sal from tblemployee
+where Sal between 1500 and 2850
