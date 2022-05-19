@@ -88,6 +88,6 @@ group by deptno
 
 
 
---14. Select the details of employees whose salary is below 1000 and job is CLERK.
+---14. Select the details of employees whose salary is below 1000 and job is CLERK.
 select * from tblemployee
 where sal<1000 and job = 'clerk'
