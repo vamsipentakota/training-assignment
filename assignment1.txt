@@ -119,9 +119,9 @@ Where Ename='SMITH'
 
 
 
---14. List the name and salary for all employees whose salary is not in the range of 1500 and 2850.
+----14. List the name and salary for all employees whose salary is not in the range of 1500 and 2850.
 
 
 
-Select Ename,Sal from tblemployee
+Select Ename,Sal from tblemployeee
 where Sal between 1500 and 2850
