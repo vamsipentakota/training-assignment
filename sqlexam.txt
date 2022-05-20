@@ -1,0 +1,28 @@
+select * from tblemployee
+
+
+
+create table Holiday
+(holiday_date varchar(20),
+Holiday_name varchar(20))
+
+
+
+--inserting values into Holiday table---
+insert into Holiday values('14-JAN','Sankranthi'),
+('14-April','Ambedkar Jayanti'),
+('15-AUG','Independence Day'),
+('25-Dec','Gandhi Jayanthi')
+
+
+
+select * from Holiday
+
+
+
+----trigger creation----
+create or alter trigger RestrictDataManipulation
+on Holiday
+instead of update
+as
+Raiserror('Due to Independace Day You Cannot Manipulate the Data',16,1)
