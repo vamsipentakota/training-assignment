@@ -19,7 +19,7 @@
         function divide() {
             var one = document.getElementById("vam").value;
             var two = document.getElementById("vamsi").value;
-            document.getElementById('result').innerHTML = 'The result is:' + one % two;
+            document.getElementById('result').innerHTML = 'The result is:' + one / two;
         }
     </script>
 </body>
