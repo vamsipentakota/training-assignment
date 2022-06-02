@@ -1,0 +1,33 @@
+create database retestexam
+use retestexam
+create table Product
+(
+ProductId int Primary key,
+ProductName varchar(50),
+Price int,
+QtyAvailable int)
+
+
+insert into Product values(111,'iphone',2500,100),
+(112,'Desktop',5000,40),
+(113,'Tv',11000,35),
+(114,'Mobile',10000,50)
+
+select * from Product
+
+create or alter proc product_remove
+as
+begin
+begin try
+
+delete from Product where productid=105
+end try
+begin catch
+print 'Select the matched product'
+end catch
+
+end
+
+
+
+exec product_remove
