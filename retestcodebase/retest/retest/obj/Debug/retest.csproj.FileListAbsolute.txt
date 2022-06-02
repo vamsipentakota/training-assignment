@@ -1,0 +1,7 @@
+C:\assignment\c#\retestcodebase\retest\retest\bin\Debug\retest.exe.config
+C:\assignment\c#\retestcodebase\retest\retest\bin\Debug\retest.exe
+C:\assignment\c#\retestcodebase\retest\retest\bin\Debug\retest.pdb
+C:\assignment\c#\retestcodebase\retest\retest\obj\Debug\retest.csproj.AssemblyReference.cache
+C:\assignment\c#\retestcodebase\retest\retest\obj\Debug\retest.csproj.CoreCompileInputs.cache
+C:\assignment\c#\retestcodebase\retest\retest\obj\Debug\retest.exe
+C:\assignment\c#\retestcodebase\retest\retest\obj\Debug\retest.pdb
