@@ -1,0 +1,7 @@
+C:\assignment\c#\miniproject\miniproject\miniproject\bin\Debug\miniproject.exe.config
+C:\assignment\c#\miniproject\miniproject\miniproject\bin\Debug\miniproject.exe
+C:\assignment\c#\miniproject\miniproject\miniproject\bin\Debug\miniproject.pdb
+C:\assignment\c#\miniproject\miniproject\miniproject\obj\Debug\miniproject.csproj.AssemblyReference.cache
+C:\assignment\c#\miniproject\miniproject\miniproject\obj\Debug\miniproject.csproj.CoreCompileInputs.cache
+C:\assignment\c#\miniproject\miniproject\miniproject\obj\Debug\miniproject.exe
+C:\assignment\c#\miniproject\miniproject\miniproject\obj\Debug\miniproject.pdb

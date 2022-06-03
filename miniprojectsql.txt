@@ -1,0 +1,28 @@
+create database StudentEmploye
+use StudentEmploye
+
+create table studentCourses
+(CourseId int primary key,CourseName varchar(20),Courseduration int, Coursefees float)
+
+insert into studentCourses values(111,'python',25,22000),(112,'java',40,33000),(113,'csharp',55,40000);
+
+select * from studentCourses
+
+create table Studentslist
+(StudentId int primary key,StudentName varchar(20),studentDOB date)
+
+insert into Studentslist values(1,'balayya','1999/6/10'),
+(2,'tharak','2000/7/27'),(3,'vamsi','2000/8/28')
+
+select * from Studentslist
+
+create table tblEnrollDetails
+(Courseid int foreign key references studentCourses(CourseId),
+ StudentId int foreign key references Studentslist(StudentId),
+ EnrollDate date)
+
+ insert into tblEnrollDetails values(111,10,'2022/8/8'),
+ (112,20,'2022/8/9'),(103,30,'2022/8/10')
+
+
+ select * from tblEnrollDetails
