@@ -1,0 +1,71 @@
+CREATE TABLE clintnormal
+
+(
+
+clientno VARCHAR(20) PRIMARY KEY,
+
+cname VARCHAR(20) NOT NULL,
+
+property1 VARCHAR(20),
+
+property2 VARCHAR(20),
+
+property3 VARCHAR(20),
+
+padress1 VARCHAR(30),
+
+padress2 VARCHAR(30),
+
+padress3 VARCHAR(30),
+
+rentstart1 DATE,
+
+rentstart2 DATE,
+
+rentstart3 DATE,
+
+rentstart4 DATE,
+
+rentstart5 DATE,
+
+rentfinish1 DATE,
+
+rentfinish2 DATE,
+
+rentfinish3 DATE,
+
+rentfinish4 DATE,
+
+rentfinish5 DATE,
+
+rent1 INT,
+
+rent2 INT,
+
+rent3 INT,
+
+owener1 VARCHAR(10),
+
+owner2 VARCHAR(10),
+
+ONAME1 VARCHAR(20),
+
+ONAME2 VARCHAR(20)
+
+)
+
+
+
+
+
+INSERT INTO clintnormal VALUES('CR76','JOHNKAY','PG4','PG16',NULL,'6LAWRENCEST.GLASGOW','5NOVARDR.GLASGOW',NULL,'1-JUL-00','1-SEP-02',NULL,NULL,NULL,'31-AUG-01','1-SEP-02',NULL,NULL,NULL,350,450,NULL,'C040','CO93','TINAMURPHY','TONYSHAW')
+
+INSERT INTO clintnormal VALUES('CR56','ALINESTEWART','PG4','PG16','PG36','6LAWRENCEST.GLASGOW','5NOVARDR.GLASGOW','2 MONOR RD GLASGOW',NULL,NULL,'1-SEP-99','10-OCT-00','1-NOV-02',NULL,NULL,'10-JAN-00','1-DEC-01','1-AUG-03',350,450,370,'C040','CO93','TINAMURPHY','TONYSHAW')
+
+
+
+
+
+
+
+SELECT * FROM clintnormal
